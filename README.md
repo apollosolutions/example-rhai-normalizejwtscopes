@@ -1,4 +1,4 @@
-# JWT Authentication/Authorization with standard scope claim
+# JWT Authentication/Authorization with a Rhai script to normalize non-standard authorizations
 
 This repository demonstrates how to use JWT authentication in the Router with the `@requiresScopes` directive when the JWT does not use the standard `scope` JWT claim. In this example, it is instead stored as an array of strings on the `authorizations` property of the JWT. The Rhai script in this repo converts it to the format expected by the Router.
 
