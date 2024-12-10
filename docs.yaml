@@ -1,0 +1,10 @@
+name: example-rhai-normalizejwtscopes
+description: A demonstration of how to use JWT authentication in the router with
+  the `@requiresScopes` directive when the JWT does not use the standard scope
+  JWT claim. In this example, it is instead stored as an array of strings on an
+  `authorizations` claim in the JWT. The Rhai script in this repo converts it to
+  the format expected by the router.
+tags:
+  - Authentication
+  - Rhai
+  - Router
